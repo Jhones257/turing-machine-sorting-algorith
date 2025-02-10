@@ -3,8 +3,7 @@ digraph TuringSorting {
 	q1 [shape=circle]
 	q2 [shape=circle]
 	q3 [shape=circle]
-	q4 [shape=circle]
-	q5 [fillcolor=lightgray shape=doublecircle style=filled]
+	q4 [fillcolor=lightgray shape=doublecircle style=filled]
 	q0 -> q1 [label="3,3,R"]
 	q1 -> q2 [label="2,2,L"]
 	q2 -> q2 [label="3,1,R"]
@@ -14,5 +13,5 @@ digraph TuringSorting {
 	q1 -> q1 [label="4,4,R"]
 	q1 -> q3 [label="_,_,L"]
 	q3 -> q0 [label="X,X,L"]
-	q3 -> q5 [label="_,_,R"]
+	q3 -> q4 [label="_,_,R"]
 }
