@@ -1,0 +1,15 @@
+digraph "Turing Machine DFA" {
+	rankdir=LR
+	"Inicio(q0)" [shape=circle]
+	"Comparacao(q1)" [shape=circle]
+	"Troca(q2)" [shape=circle]
+	"Checar_flag(q3)" [shape=circle]
+	"Fim(q_accepted)" [shape=doublecircle]
+	"Inicio(q0)" -> "Comparacao(q1)" [label="(*,* , →)"]
+	"Comparacao(q1)" -> "Comparacao(q1)" [label="(a, a, →) (a ≤ próximo)"]
+	"Comparacao(q1)" -> "Troca(q2)" [label="(a, a, -) (a > próximo)"]
+	"Troca(q2)" -> "Comparacao(q1)" [label="(a, b, →) (troca a⇄b)"]
+	"Comparacao(q1)" -> "Checar_flag(q3)" [label="(□, □, ←) (fim da lista)"]
+	"Checar_flag(q3)" -> "Fim(q_accepted)" [label="(0, 0, -) (ordenado)"]
+	"Checar_flag(q3)" -> "Inicio(q0)" [label="(1, 0, ←) (reset flag)"]
+}
