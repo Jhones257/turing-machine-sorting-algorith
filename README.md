@@ -13,7 +13,7 @@ Trabalho submetido à disciplina de Linguagens Formais e Autômatos - Implementa
 
 ## Resumo do Trabalho
 
-> **Este repositório apresenta a implementação do **Algoritmo de Ordenação Bubble Sort** utilizando **Máquina de Turing**, desenvolvida em Python. O objetivo do projeto é demonstrar, de forma didática, como um algoritmo clássico de ordenação pode ser modelado e executado dentro de uma Máquina de Turing, destacando conceitos fundamentais da teoria da computação.
+> **Este repositório apresenta a implementação do **Algoritmo de Ordenação Bubble Sort** utilizando **Máquina de Turing**, desenvolvida em Python. O objetivo do projeto é demonstrar, de forma didática, como um algoritmo clássico de ordenação pode ser modelado e executado dentro de uma Máquina de Turing, destacando conceitos fundamentais da teoria da computação.**
 ## Descrição
 > **Na implementação, foi realizada a imulação completa da Máquina de Turing com a lógica do Bubble Sort, incluindo fita infinita, cabeça de leitura/escrita e estados de transição., foram aplicadas como linguagem de programação o Python, pela sua simplicidade e ampla biblioteca de manipulação de dados. O ambiente de desenvolvimento usado foi o Google Collab pelo suporte a várias ferramentas. Dentre as bibliotecas aplicadas estão, principalmente: graphviz, defaltdict, json e tkinter.**
 >**Os passos aplicados no desenvolvimento do projeto consistiu no:**
